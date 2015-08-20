@@ -13,9 +13,71 @@
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.3/handlebars.min.js"></script>
-    <script src="scripts/app.js"></script>
+
   </head>
   <body>
-    <p>Hi!</p>
+<!-- HEADER -->
+    <header class="masthead">
+      <div class="jumbotron">
+        <div class="jumbotron-text">
+          <h1>TERENCE TURNER</h1>
+          <hr id="underline">
+          <p> SCULPTOR </p>
+        </div>
+      </div>
+    </header>
+    <!-- NAVBAR -->
+    <div id="nav" data-spy="affix" data-offset-top="450">
+      <div class="navbar navbar-default navbar-static">
+        <div class="container">
+          <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+          <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="glyphicon glyphicon-bar"></span>
+            <span class="glyphicon glyphicon-bar"></span>
+            <span class="glyphicon glyphicon-bar"></span>
+          </a>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="/about" id="aboutPage">About</a></li>
+              <li><a href="/gallery" id="galleryPage">Gallery</a></li>
+              <li><a href="/contact" id="contactPage">Contact</a></li>
+              <li><a href="/commission" id="commissionPage">Commission</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div><!-- /.navbar -->
+
+    <script id="content-template" type="text/x-handlebars-template">
+      <div class="page-content">
+        <div class="row" id="content-box">
+          <div class="col-xs-12 col-md-4 leftsmall">
+            <img src={{image_url}} class="profile-picture">
+            <p>{{leftSide}}</p>
+          </div>
+          <div class="col-xs-12 col-md-7 rightlarge">
+            <h2>{{title}}</h2>
+            <p>{{rightSide}}</p>
+          </div>
+        </div>
+      </div>
+    </script>
+
+        <script src="scripts/app.js"></script>
+
+    <footer id="footer">
+        <a href="https://www.facebook.com/tereturnersculptor">
+         <img src="images/fb.png" class="social-icon">
+       </a>
+       <a href="https://instagram.com/terencegturner/">
+         <img src="images/igm.png" class="social-icon">
+       </a>
+      <p>&copy; Terence Turner</p>
+    </footer>
+
+<!--     </div> -->
+
   </body>
 </html>
+
+

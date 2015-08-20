@@ -1,3 +1,203 @@
-body {
-  background-color: blue;
+
+
+/*
+  .jumbotron {
+    width: 100%;
+    min-height: 450px;
+    position: relative;
+    background: url(/images/jaw.jpg) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0;
 }
+*/
+
+.jumbotron {
+    background: url("/images/jaw.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+      background-size: cover;
+      min-height: 450px;
+    margin-bottom: 0px;
+}
+
+
+@media only screen and (max-width: 500px) {
+.jumbotron {
+    width: 100%;
+    min-height: 350px;
+    position: relative;
+    background: url(/images/jawtall.jpg) center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 0;
+
+}
+
+.jumbotron h1 {
+  display: none;
+}
+
+#underline {
+  display: none;
+}
+
+
+.jumbotron p {
+  display: none;
+}
+
+
+}
+
+
+@font-face {
+  font-family: 'Trajanus Roman';
+  src: url('http://www.fontsaddict.com/fontface/trajanus-roman.TTF');
+}
+
+
+
+
+.jumbotron .jumbotron-text {
+  text-align: center;
+}
+
+.jumbotron h1 {
+  font-size: 5em;
+  font-family: "Trajanus-Roman";
+}
+
+#underline {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    height: 0.1em;
+    max-width: 40em;
+}
+
+
+.jumbotron p {
+font-size: 1.2em;
+font-family: "Trajanus-Roman";
+
+}
+
+.navbar {
+  margin-top: 0;
+  background-color: black;
+  font-family: "Trajanus-Roman";
+  color: white;
+}
+
+.nav .active {
+  background-color: white;
+
+}
+
+.page-content{
+  padding-left: 20px;
+  margin-top: 100px;
+
+}
+
+.contact-container {
+padding-left: 20px;
+margin-top: 50px;
+}
+
+h2 {
+  font-family: "Trajanus-Roman";
+  font-size: 2.0em;
+}
+
+p {
+  font-family: "Trajanus-Roman";
+  font-size: 1.0em;
+
+}
+
+.pic {
+  position: relative;
+  margin: auto, auto;
+}
+
+
+.gallerycontainer{
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+
+}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+.profile-picture {
+    position: relative;
+    display: block;
+    max-width: 14em;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.about-text {
+  padding-right: 60px;
+}
+
+#contactlist {
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
+#contactoptions {
+    position: relative;
+    max-width: 60%;
+    padding-left: 50px;
+    display: block;
+    margin: auto;
+    text-align: left;
+}
+
+.contact-text {
+  padding-top: 40px;
+
+}
+
+/* bootstrap 3 helpers */
+
+
+
+
+#nav.affix {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index:10;
+}
+
+footer {
+  text-align:center;
+  width: 100%;
+  font-size:0.75em;
+  font-family:"Trajanus-Roman"
+  clear:both;
+  background-color: white;
+  padding-top:50px 0 0;
+  margin-top: 30px;}
+
+.social-icon {
+width: 20px;
+height: 20px;
+margin: 10px 5px;
+}
+
+footer p {
+  color: black;
+
+}
+

@@ -1,7 +1,7 @@
 # ttsite
 Tere's website
 
-Learn how to use the script tags - create template, populate it, plug it into the page.
+
 
 Single page app
 if the js doesn't load, at least load the about (default)

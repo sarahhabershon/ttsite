@@ -91,9 +91,22 @@ font-family: "Trajanus-Roman";
   color: white;
 }
 
-.nav .active {
-  background-color: white;
+.navbar-default .navbar-nav li {
+  color: #777;
+}
 
+
+
+.navbar-nav li {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  line-height: 20px;
+}
+
+.nav li {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
 }
 
 .page-content{

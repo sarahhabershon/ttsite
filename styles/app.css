@@ -115,6 +115,10 @@ font-family: "Trajanus-Roman";
 
 }
 
+.about-container{
+  margin-top: 50px;
+}
+
 .contact-container {
 padding-left: 20px;
 margin-top: 50px;
@@ -196,8 +200,6 @@ a:visited {
 /* bootstrap 3 helpers */
 
 
-
-
 #nav.affix {
     position: fixed;
     top: 0;
@@ -230,3 +232,17 @@ footer p {
   color: black;
 }
 
+
+/* tabs js */
+
+.link{
+  cursor: pointer;
+}
+/*
+.tab {
+  display: none;
+}
+
+.tab.active {
+  display: inline;
+}*/

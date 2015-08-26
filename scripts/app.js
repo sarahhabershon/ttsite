@@ -1,12 +1,20 @@
 $(document).ready(function () {
-  $(".link").on("click", function(event) {
-    $(".tabs").find(".active").removeClass("active");
-    $(this).addClass("active");
+  if ($(window).width() > 480){
+    console.log("gee");
     $(".tab").hide();
-    var tab_id = $(this).attr("id");
-    $(tab_id).show();
-  });
+    $("#tab2").show();
+    $(".link").on("click", function(event) {
+      $(".tabs").find(".active").removeClass("active");
+      $(this).addClass("active");
+      $(".tab").hide();
+      var tab_id = $(this).attr("id");
+      $(tab_id).show();
+    });
+  }
+  else $(".tab").show();
 });
+
+
 
 
 

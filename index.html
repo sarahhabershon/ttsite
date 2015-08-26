@@ -8,7 +8,7 @@
     <title>Terence Turner || Sculptor</title>
 
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfrfIFBfYc= sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles/app.css">
+    <link rel="stylesheet" href="styles/mobile-first.css">
 
     <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
@@ -20,7 +20,7 @@
     <header class="masthead">
       <div class="jumbotron">
         <div class="jumbotron-text">
-          <h1>TERENCE TURNER</h1>
+          <h1 id="desktop-heading">TERENCE TURNER</h1>
           <hr id="underline">
           <p> SCULPTOR </p>
         </div>
@@ -30,23 +30,19 @@
     <div id="nav" data-spy="affix" data-offset-top="450">
       <div class="navbar navbar-default navbar-static">
         <div class="container">
-          <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
-          <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="glyphicon glyphicon-bar"></span>
-            <span class="glyphicon glyphicon-bar"></span>
-            <span class="glyphicon glyphicon-bar"></span>
-          </a>
-          <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-              <li class="link" id="#tab1">About</li>
-              <li class="link" id="#tab2">Gallery</li>
-              <li class="link" id="#tab3">Contact</li>
-              <li class="link">Commission</li>
-            </ul>
-          </div>
+            <li class="link" id="#tab1">About</li>
+            <li class="link" id="#tab2">Gallery</li>
+            <li class="link" id="#tab3">Contact</li>
+          </ul>
         </div>
       </div>
     </div><!-- /.navbar -->
+
+    <h1 class="mobile-heading">TERENCE TURNER</h1>
+    <hr id="mobile-underline">
+    <p class="mobile-subhead"> SCULPTOR </p>
+
   <div class="tabs-container">
      <div class="about-container tab" id="tab1">
       <div class="row" id="about-box">
@@ -63,47 +59,42 @@
 
   <div class="gallerycontainer tab" id="tab2">
          <div class="row">
-              <div class="col-md-3 portfolio-item">
+              <div class="col-xs-4 col-md-3 portfolio-item">
                   <a href="#">
                       <img class="img-responsive" src="images/1.jpg" alt="">
                   </a>
               </div>
-              <div class="col-md-3 portfolio-item">
+              <div class="col-xs-4 col-md-3 portfolio-item">
                   <a href="#">
                       <img class="img-responsive" src="images/2.jpg" alt="">
                   </a>
               </div>
-              <div class="col-md-3 portfolio-item">
+              <div class="col-xs-4 col-md-3 portfolio-item">
                   <a href="#">
                       <img class="img-responsive" src="images/3.jpg" alt="">
                   </a>
               </div>
-              <div class="col-md-3 portfolio-item">
+              <div class="col-xs-4 col-md-3 portfolio-item">
                   <a href="#">
                       <img class="img-responsive" src="images/4.jpg" alt="">
                   </a>
               </div>
-          </div>
-          <!-- /.row -->
-
-          <!-- Projects Row -->
-          <div class="row">
-              <div class="col-md-3 portfolio-item">
+              <div class="col-xs-4 col-md-3 portfolio-item">
                   <a href="#">
                       <img class="img-responsive" src="images/5.jpg" alt="">
                   </a>
               </div>
-              <div class="col-md-3 portfolio-item">
+              <div class="col-xs-4 col-md-3 portfolio-item">
                   <a href="#">
                       <img class="img-responsive" src="images/6.jpg" alt="">
                   </a>
               </div>
-              <div class="col-md-3 portfolio-item">
+              <div class="col-xs-4 col-md-3 portfolio-item">
                   <a href="#">
                       <img class="img-responsive" src="images/7.jpg" alt="">
                   </a>
               </div>
-              <div class="col-md-3 portfolio-item">
+              <div class="col-xs-4 col-md-3 portfolio-item">
                   <a href="#">
                       <img class="img-responsive" src="images/8.jpg" alt="">
                   </a>

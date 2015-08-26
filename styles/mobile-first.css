@@ -9,6 +9,17 @@
     margin-bottom: 0;
     }
 
+
+
+
+    .nav {
+      border: 1px solid yellow;
+      display: inline-table;
+
+
+
+    }
+
     .jumbotron h1 {
       display: none;
     }
@@ -152,18 +163,19 @@
       color: #777;
     }
 
+    .navbar-nav{
+      width: 100%;
+    }
 
     .navbar-nav li {
       padding-top: 15px;
       padding-bottom: 15px;
       line-height: 20px;
-      float: left;
-    }
-
-    .nav li {
+      text-align: center;
       position: relative;
-      display: block;
+      display: inline-block;
       padding: 10px 15px;
+      margin: 0 auto;
     }
 
     .link{

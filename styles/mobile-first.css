@@ -1,8 +1,10 @@
 @media only screen and (min-width : 320px) {
 
+
+
   .jumbotron {
     width: 100%;
-    min-height: 250px;
+    min-height: 240px;
     position: relative;
     background: url(/images/mobilejaw.jpg) center center;
     background-repeat: no-repeat;
@@ -14,6 +16,7 @@
     .jumbotron h1 {
       display: none;
     }
+
 
     .mobile-heading{
       text-align: center;
@@ -91,6 +94,7 @@
 
     #contactlist {
         position: relative;
+        max-width: 80%;
         display: block;
         margin: auto;
     }
@@ -114,7 +118,7 @@
     .profile-picture {
         position: relative;
         display: block;
-        max-width: 14em;
+        max-width: 8em;
         margin: auto;
         border-radius: 100%;
     }
@@ -124,7 +128,14 @@
       margin-left: auto;
       margin-right: auto;
       margin-top: 50px;
+    }
 
+    .tab {
+      position: relative;
+      max-width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 50px;
     }
 
     .portfolio-item {
@@ -144,7 +155,10 @@
         z-index:10;
     }
 
-
+    #navlinks {
+      margin: 0 auto;
+      text-align: center;
+    }
 
     /* navbar */
 
@@ -160,9 +174,7 @@
       color: #777;
     }
 
-    .navbar-nav{
-      width: 100%;
-    }
+
 
     .navbar-nav li {
       padding-top: 15px;
@@ -171,7 +183,7 @@
       text-align: center;
       position: relative;
       display: inline;
-      padding: 10px 15px;
+      padding-right: 20px;
       margin: 0 auto;
     }
 
@@ -217,10 +229,10 @@
 
       .about-container{
         margin-top: 50px;
+        max-width: 80%;
       }
 
       .contact-container {
-      padding-left: 20px;
       margin-top: 50px;
       }
 
@@ -229,7 +241,34 @@
     }
 
     /* Small Devices, Tablets */
-    @media only screen and (min-width : 600px) {
+    @media only screen and (min-width : 768px) {
+
+
+    #navlinks {
+    float: left;
+    text-align: left;
+    }
+
+    .nav li {
+      padding: 10, 0;
+    }
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+        body {
+    background-color: white;
+  }
+
+      p {
+        text-align: left;
+      }
+
+      h2 {
+        text-align: left;
+      }
 
 
     .jumbotron {
@@ -265,6 +304,9 @@
       font-size: 5em;
       font-family: "Trajanus-Roman";
     }
+    .jumbotron p {
+      text-align: center;
+    }
 
     #underline {
       display: block;
@@ -283,13 +325,13 @@
 
     }
 
-    .navbar {
-      min-height: 50px;
+
+    .navbar-nav li {
+    display: inline;
+    padding-left: 30px;
     }
 
-      .navbar-nav li {
-      display: inline-block;
-    }
+
 
     .about-container p {
     text-align: left;
@@ -306,6 +348,11 @@
     .contact-container h2 {
     text-align: left;
     }
+
+      .profile-picture {
+      max-width: 14em;
+
+  }
 
 }
 

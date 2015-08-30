@@ -101,7 +101,6 @@
 
     #contactoptions {
         position: relative;
-        max-width: 80%;
         display: block;
         margin: auto;
         text-align: left;
@@ -127,7 +126,7 @@
       max-width: 80%;
       margin-left: auto;
       margin-right: auto;
-      margin-top: 50px;
+      margin-top: 40px;
     }
 
     .tab {
@@ -177,13 +176,11 @@
 
 
     .navbar-nav li {
-      padding-top: 15px;
-      padding-bottom: 15px;
+      padding: 0;
       line-height: 20px;
       text-align: center;
       position: relative;
       display: inline;
-      padding-right: 20px;
       margin: 0 auto;
     }
 
@@ -194,7 +191,7 @@
     /* footer */
 
     footer {
-      text-align:center;
+      text-align: center;
       width: 100%;
       font-size:0.75em;
       font-family:"Trajanus-Roman"
@@ -249,10 +246,6 @@
     text-align: left;
     }
 
-    .nav li {
-      padding: 10, 0;
-    }
-
     }
 
     /* Medium Devices, Desktops */
@@ -287,17 +280,10 @@
       text-align: center;
     }
 
-    .mobile-heading{
+    .mobile-heading-container{
       display: none;
     }
 
-    .mobile-subhead{
-      display: none;
-    }
-
-    #mobile-underline{
-      display: none;
-    }
 
     .jumbotron h1 {
       display: inline;
@@ -328,7 +314,7 @@
 
     .navbar-nav li {
     display: inline;
-    padding-left: 30px;
+    padding: 15px;
     }
 
 

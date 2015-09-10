@@ -4,7 +4,13 @@ Tere's website
 
 Have written a js media query to display all content on mobile but only one page at a time on desktop or tablet. Still need to enable the links on mobile to direct user to the part of the page where the content is.
 
+TRY USING SPAN TAGS
+text alignment is the problem
+
+
 Still need an intermediate media screen size background image for jumbotron
+
+Also revise jumbotron sizing, try using 50% height perhaps? Try to get it to take up half the screen on mobile?
 
 bootstrap break points are:
 

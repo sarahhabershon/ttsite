@@ -94,7 +94,6 @@
 
     #contactlist {
         position: relative;
-        max-width: 80%;
         display: block;
         margin: auto;
     }
@@ -103,7 +102,10 @@
         position: relative;
         display: block;
         margin: auto;
-        text-align: left;
+    }
+
+    #contactoptions p {
+      text-align: left;
     }
 
 
@@ -155,8 +157,8 @@
     }
 
     #navlinks {
-      margin: 0 auto;
-      text-align: center;
+      margin: 0 10px;
+/*      text-align: center;*/
     }
 
     /* navbar */
@@ -171,12 +173,6 @@
 
     .navbar-default .navbar-nav li {
       color: #777;
-    }
-
-
-
-    .navbar-nav li {
-      padding: 0;
       line-height: 20px;
       text-align: center;
       position: relative;
@@ -187,6 +183,8 @@
     .link{
       cursor: pointer;
     }
+
+
 
     /* footer */
 

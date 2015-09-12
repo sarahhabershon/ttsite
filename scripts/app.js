@@ -12,6 +12,16 @@ $(document).ready(function () {
     });
   }
   else $(".tab").show();
+
+
+window.onscroll = function(){
+        if ($("#nav_buffer")[0].getBoundingClientRect().top >= 0){
+          $("#nav").addClass("affix-top").removeClass("affix")
+        } else $("#nav").addClass("affix").removeClass("affix-top")
+
+
+    }
+
 });
 
 

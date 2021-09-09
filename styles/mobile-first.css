@@ -1,0 +1,391 @@
+@media only screen and (min-width : 0px) {
+
+
+
+  .jumbotron {
+    width: 100%;
+    min-height: 240px;
+    position: relative;
+    background: url(/images/mobilejaw.jpg) center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 0;
+    }
+
+
+    .jumbotron h1 {
+      display: none;
+    }
+
+
+    .mobile-heading{
+      text-align: center;
+      display: block;
+      font-size: 3em;
+      font-family: "Trajanus-Roman";
+      color: black;
+    }
+
+    .mobile-subhead{
+      text-align: center;
+    }
+
+    #mobile-underline{
+      margin-top: 0px;
+      padding-top:0px;
+      padding-top:0px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: black;
+      height: 0.1em;
+      max-width: 20em;
+    }
+
+    #underline {
+      display: none;
+    }
+
+    .jumbotron p {
+      display: none;
+    }
+
+    p {
+      text-align: center;
+    }
+
+
+    /* fonts and text */
+
+    @font-face {
+      font-family: 'Trajanus Roman';
+      src: url('http://www.fontsaddict.com/fontface/trajanus-roman.TTF');
+    }
+
+    h2 {
+      font-family: "Trajanus-Roman";
+      font-size: 2.0em;
+      text-align: center;
+    }
+
+    p {
+      font-family: "Trajanus-Roman";
+      font-size: 1.0em;
+    }
+
+
+    /* contact page stuff */
+
+    a {
+      font-family: "Trajanus-Roman";
+      font-size: 1.0em;
+      font-style: none;
+      color: black;
+    }
+
+    a:hover {
+      color: black;
+    }
+
+    a:visited {
+      color: black;
+      font-style: none;
+    }
+
+    #contactlist {
+        position: relative;
+        display: block;
+        margin: auto;
+    }
+
+    #contactoptions {
+        position: relative;
+        display: block;
+        margin: auto;
+    }
+
+    #contactoptions p {
+      text-align: left;
+    }
+
+
+    /* picture stuff */
+
+    .pic {
+      position: relative;
+      margin: auto, auto;
+    }
+
+    .profile-picture {
+        position: relative;
+        display: block;
+        max-width: 8em;
+        margin: auto;
+        border-radius: 100%;
+    }
+
+    .gallerycontainer{
+      max-width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+    }
+
+    .about-container{
+        margin-top: 30px;
+        max-width: 80%;
+      }
+
+      .contact-container {
+      margin-top: 30px;
+      }
+
+
+    .tab {
+      position: relative;
+      max-width: 80%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+    }
+
+    .portfolio-item {
+        margin-bottom: 25px;
+    }
+
+
+
+
+    /* bootstrap 3 helpers */
+
+
+    #nav.affix {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index:10;
+    }
+
+    #nav.affix-top {
+        position: relative;
+        top: 0;
+        width: 100%;
+        z-index:10;
+    }
+
+    #nav_buffer {
+      min-height: 50px;
+    }
+
+    /* navbar */
+
+    .navbar {
+      margin-top: 0;
+      background-color: black;
+      font-family: "Trajanus-Roman";
+      color: white;
+      min-height: 30px;
+    }
+
+    #navlinks {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+    }
+
+    #navlinks li{
+      color: #777;
+      line-height: 20px;
+      position: relative;
+      display: inline;
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+
+    .link{
+      cursor: pointer;
+    }
+
+
+
+    /* footer */
+
+    footer {
+      text-align: center;
+      width: 100%;
+      font-size:0.75em;
+      font-family:"Trajanus-Roman"
+      clear:both;
+      background-color: white;
+      padding-top:50px 0 0;
+      margin-top: 30px;}
+
+      .social-icon {
+      width: 20px;
+      height: 20px;
+      margin: 10px 5px;
+      border-radius: 20%
+      }
+
+      .social-icon.list{
+      margin-right: 20px;
+      }
+
+      footer p {
+        color: black;
+      }
+
+      #copyright {
+        text-align: center;
+      }
+
+
+
+
+      .page-content{
+        padding-left: 20px;
+        margin-top: 100px;
+
+      }
+
+      .about-container{
+        margin-top: 50px;
+        max-width: 80%;
+        margin-bottom: 30px;
+      }
+
+      .contact-container {
+      margin-top: 50px;
+      }
+
+    a.anchor {
+      padding-top: 10px;
+      margin-top: -10px;
+      display: block;
+      }
+
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 480px) {
+
+
+    .navbar-nav {
+      margin-top: 7.5px;
+    }
+
+    #navlinks {
+    float: left;
+    margin-left: 15px;
+    text-align: left;
+    font-size: 15px;
+    }
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+
+
+      p {
+        text-align: left;
+      }
+
+      h2 {
+        text-align: left;
+      }
+
+
+    .jumbotron {
+    background: url("/images/jaw.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 450px;
+    margin-bottom: 0px;
+    }
+
+
+
+    .jumbotron .jumbotron-text {
+      text-align: center;
+    }
+
+    .mobile-heading-container{
+      display: none;
+    }
+
+
+    .jumbotron h1 {
+      display: inline;
+      font-size: 5em;
+      font-family: "Trajanus-Roman";
+    }
+    .jumbotron p {
+      text-align: center;
+    }
+
+    #underline {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0px;
+      margin-bottom: 10px;
+      background-color: black;
+      height: 0.1em;
+      max-width: 40em;
+    }
+
+
+    .jumbotron p {
+    display: block;
+    font-size: 1.2em;
+    font-family: "Trajanus-Roman";
+
+    }
+
+
+    .navbar-nav li {
+    display: inline;
+    padding: 15px;
+    }
+
+      .tab {
+        margin-top: 60px;
+      }
+
+    .about-container p {
+    text-align: left;
+     }
+
+     .contact-container p {
+    text-align: left;
+     }
+
+     .about-container h2 {
+    text-align: left;
+     }
+
+    .contact-container h2 {
+    text-align: left;
+    }
+
+      .profile-picture {
+      max-width: 14em;
+
+  }
+
+}
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+
+
+
+    }
+
+
+
